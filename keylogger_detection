@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="X9 <= -0.172\ngini = 0.5\nsamples = 20000\nvalue = [9994, 10006]\nclass = Keylogger", fillcolor="#ffffff"] ;
+1 [label="X9 <= -0.546\ngini = 0.247\nsamples = 10492\nvalue = [8975, 1517]\nclass = No Keylogger", fillcolor="#e9965a"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X6 <= -1.288\ngini = 0.177\nsamples = 8859\nvalue = [7988, 871]\nclass = No Keylogger", fillcolor="#e88f4f"] ;
+1 -> 2 ;
+3 [label="gini = 0.471\nsamples = 967\nvalue = [600, 367]\nclass = No Keylogger", fillcolor="#f5ceb2"] ;
+2 -> 3 ;
+4 [label="gini = 0.12\nsamples = 7892\nvalue = [7388, 504]\nclass = No Keylogger", fillcolor="#e78a47"] ;
+2 -> 4 ;
+5 [label="X6 <= 0.797\ngini = 0.478\nsamples = 1633\nvalue = [987, 646]\nclass = No Keylogger", fillcolor="#f6d3bb"] ;
+1 -> 5 ;
+6 [label="gini = 0.408\nsamples = 1366\nvalue = [976, 390]\nclass = No Keylogger", fillcolor="#efb388"] ;
+5 -> 6 ;
+7 [label="gini = 0.079\nsamples = 267\nvalue = [11, 256]\nclass = Keylogger", fillcolor="#42a1e6"] ;
+5 -> 7 ;
+8 [label="X6 <= -1.598\ngini = 0.191\nsamples = 9508\nvalue = [1019, 8489]\nclass = Keylogger", fillcolor="#51a9e8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="X6 <= -1.814\ngini = 0.358\nsamples = 860\nvalue = [659, 201]\nclass = No Keylogger", fillcolor="#eda775"] ;
+8 -> 9 ;
+10 [label="gini = 0.188\nsamples = 563\nvalue = [504, 59]\nclass = No Keylogger", fillcolor="#e89050"] ;
+9 -> 10 ;
+11 [label="gini = 0.499\nsamples = 297\nvalue = [155, 142]\nclass = No Keylogger", fillcolor="#fdf4ee"] ;
+9 -> 11 ;
+12 [label="X9 <= 0.152\ngini = 0.08\nsamples = 8648\nvalue = [360, 8288]\nclass = Keylogger", fillcolor="#42a1e6"] ;
+8 -> 12 ;
+13 [label="gini = 0.355\nsamples = 924\nvalue = [213, 711]\nclass = Keylogger", fillcolor="#74baed"] ;
+12 -> 13 ;
+14 [label="gini = 0.037\nsamples = 7724\nvalue = [147, 7577]\nclass = Keylogger", fillcolor="#3d9fe6"] ;
+12 -> 14 ;
+}

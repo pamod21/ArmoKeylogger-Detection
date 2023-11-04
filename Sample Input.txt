@@ -1,0 +1,17 @@
+Sample Input,
+
+Flow Duration:                            1
+Fwd Packet Length Max:          0
+Fwd Packet Length Mean:       0
+Bwd Packet Length Min:          1
+Flow IAT Std:                               0
+Fwd IAT Total:                             2
+Fwd IAT Std:                                 5
+Bwd IAT Total:                             8
+Bwd IAT Std:                                 1
+PSH Flag Count:                           0
+ACK Flag Count:                           1
+URG Flag Count:                           0
+Down/Up Ratio:                           0
+Active Mean:                                 0
+Idle Mean:                                      0
